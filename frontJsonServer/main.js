@@ -3,7 +3,7 @@
 const containerFotos = document.getElementById("containerFotos")
 
 async function pegarFotos(){
-    const response = await fetch("http://localhost:3000/fotos")
+    const response = await fetch("https://jsonserver-apifake-1.onrender.com/fotos")
     const data = await response.json()
 
     return data
